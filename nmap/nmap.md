@@ -9,13 +9,11 @@ nmap flag	      | Description
 -sV	            | Attempts to determine the version of the services running
 -p <x> or -p-	  | Port scan for port <x> or scan all ports
 -Pn	            | Disable host discovery and just scan for open ports
--A	            | Enables OS and version detection, executes in-build scripts for further enumeration 
+-A	            | Enables OS and version detection, executes in-build scripts for further enumeration, very aggressive :O
 -sC	            | Scan with the default nmap scripts
 -v	            | Verbose mode
 -sU	            | UDP port scan
--sS	            | TCP SYN port sca| n
-
-
+-sS	            | TCP SYN port scan
 
 ### Usage
 FIRST OF ALL, SEE THE MAN PAGE (https://nmap.org/book/man.html) FOR MORE OPTIONS
